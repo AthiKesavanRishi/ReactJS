@@ -1,0 +1,39 @@
+
+#super{
+    color: red;
+    font-size: large;
+    font-family: 'Times New Roman';
+}
+
+h3{
+    color:green;
+    font-size: large;
+    font-family:'Times New Roman';
+}
+
+h4{
+    color:purple;
+    font-size: large;
+    font-family: 'Times New Roman';
+}
+
+*{
+    font-family: 'Times New Roman';
+}
+
+ol,ul{
+    color:navy;
+    font-size: large;
+    font-family: 'Times New Roman';
+}
+ 
+
+img{
+    height : 10%;
+    width: 10%;
+    border: 2px solid black;
+}
+.ds{
+    color:black;
+
+}
