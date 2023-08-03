@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
     <style>
 
        
-        /* #super{
+        #super{
             color: red;
             font-size: large;
             font-family: 'Times New Roman';
@@ -41,18 +41,52 @@
             height : 10%;
             width: 10%;
             border: 2px solid black;
+            margin-left: 100px;
         }
         .ds{
             color:black;
 
-        } */ 
+        }
+
+        .grid-container{
+            display: grid;
+            margin-top: 50px;
+            margin-left: 235px ;
+            grid-template-columns: auto auto auto;
+            gap: 50px;
+        }
+
+        .grid-item{
+            border: 5px solid black;
+            text-align: center;
+            background-color: blueviolet;
+            font-size: 50px;
+            padding: 20px;
+
+        }
+
+        .flex-container {
+            display: flex;
+            gap: 50px;
+            margin-top: 50px;
+            margin-left: 235px;
+        }
+
+        .flex-item{
+            flex-basis: 445px;
+            background-color: blueviolet;
+            text-align: center;
+            border: solid 5px black;
+            font-size: 50px;
+            padding: 20px;
+        }
 
     </style>
 </head>
 
 <body>
     <div>
-    <h1 style="color: blue; font-family: 'Times New Roman', Times, serif;"><b>ATHI KESAVAN</b></h1>
+    <h1 style="color: blue; font-family: 'Times New Roman', Times, serif; margin-left: 75px;"><b>ATHI KESAVAN</b></h1>
     <img src="./WhatsApp Image 2022-12-21 at 09.04.47.jpg" alt="Smart" />
     <h2 id="super"><u>ARTIFICIAL INTELLIGENCE AND DATA SCIENCE</u></h2>
     <h3><i>I am a <span class = "ds">Smart Boy</span></i></h3>
@@ -90,6 +124,22 @@
     </ol>
     </div>
 
+    <div class = "grid-container" >
+        <div class = "grid-item">ML Engineer</div>
+        <div class = "grid-item">Data Scientist</div>
+    </div>
+
+    
+    <div class = "flex-container" >
+        <div class = "flex-item">Full Stack</div>
+        <div class = "flex-item">Web Developer</div>
+    </div>
+
+
+
+    
+
+    
     
 </body>
 
